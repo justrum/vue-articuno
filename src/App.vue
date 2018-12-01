@@ -8,6 +8,14 @@
   </div>
 </template>
 
+<script>
+import store from './store';
+export default {
+  name: 'app',
+  store,
+};
+</script>
+
 <style lang="scss">
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
